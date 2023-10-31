@@ -4,7 +4,7 @@
   "description": "A nodejs module designed to parse an Object hash transposing between dot-notation and a structured heirarchy of Objects/Arrays.  ",
   "main": "lib/utils/dataobject-parser.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --bail --recursive test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -37,15 +37,6 @@
       "email": "davidtpate@gmail.com"
     }
   ],
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-mocha": "^8.0.0",
-    "gulp-watch": "^4.0.1",
-    "lodash": "^4.17.4",
-    "mocha": "^9.2.1",
-    "run-sequence": "^1.2.2",
-    "should": "1.2.1"
-  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Gigzolo/dataobject-parser/issues"
@@ -53,5 +44,10 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "homepage": "https://github.com/Gigzolo/dataobject-parser"
+  "homepage": "https://github.com/Gigzolo/dataobject-parser",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "lodash": "^4.17.21",
+    "should": "^13.2.3"
+  }
 }
