@@ -46,7 +46,6 @@
   },
   "homepage": "https://github.com/Gigzolo/dataobject-parser",
   "devDependencies": {
-    "assert": "^2.1.0",
     "jest": "^29.7.0",
     "lodash": "^4.17.21",
     "should": "^13.2.3"
